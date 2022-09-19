@@ -17,7 +17,9 @@ if (inputOne === 1){
 } else if (inputOne === 2){
     console.log("Color deconstructing. Select a color: 'purple', 'orange', 'green'");
     y1 = prompt('> '); 
-} 
+} else {
+    console.log('error');
+}
 //_____________________________________________________________________________________
 if ( inputOne === 1 && x1 ==='red' && x2 ==='blue'){
     console.log('purple');
