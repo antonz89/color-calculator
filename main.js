@@ -14,7 +14,6 @@ if (inputOne === 1){
     x1 = prompt('> ');
     console.log("Color combining. Select color 2: 'red', 'blue', 'yellow'");
     x2 = prompt('> ');
-//_____________________________________________________________________________________   
 } else if (inputOne === 2){
     console.log("Color deconstructing. Select a color: 'purple', 'orange', 'green'");
     y1 = prompt('> '); 
