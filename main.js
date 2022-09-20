@@ -1,7 +1,7 @@
 const prompt = require('prompt-sync')({sigint: true});
 
 let x1 
-let x2 
+let x2
 let y1 
 
 console.log("Select an operation: combine colors - 1;  deconstruct a color - 2 ")
@@ -21,11 +21,11 @@ if (inputOne === 1){
     console.log('error');
 }
 //_____________________________________________________________________________________
-if ( inputOne === 1 && x1 ==='red' && x2 ==='blue'){
+if ( (inputOne === 1 && x1 ==='red' && x2 ==='blue')||(inputOne === 1 && x1 ==='blue' && x2 ==='red')){
     console.log('purple');
-} else if (inputOne === 1 && x1==='red'&&x2==='yellow'){
+} else if ((inputOne === 1 && x1==='red'&&x2==='yellow')||(inputOne === 1 && x1 ==='yellow' && x2 ==='red')){
     console.log('orange');
-} else if (inputOne === 1 && x1==='blue'&&x2==='yellow'){
+} else if ((inputOne === 1 && x1==='blue'&&x2==='yellow')||(inputOne === 1 && x1 ==='yellow' && x2 ==='blue')){
     console.log('green');
 } else if (inputOne === 1){
     console.log('error');
@@ -40,6 +40,7 @@ if (inputOne === 2 && y1 === 'purple'){
 } else if (inputOne === 2){
     console.log('error');
 }
+
 
 
 
