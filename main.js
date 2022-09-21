@@ -8,7 +8,7 @@ console.log("Select an operation: combine colors - 1;  deconstruct a color - 2 "
 let inputOne = Number(prompt('> '));
 
 
-//____________________________________________________________________________________
+//_______________________________________________________________________________
 if (inputOne === 1){
     console.log("Color combining. Select color 1: 'red', 'blue', 'yellow'");
     x1 = prompt('> ');
